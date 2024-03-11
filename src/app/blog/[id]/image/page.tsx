@@ -3,7 +3,7 @@ import styles from '../../../page.module.css'
 import Image from 'next/image'
 import Header from '@/app/components/Header'
 import Footer from '@/app/components/Footer'
-import BlogList from '@/app/components/BlogList'
+import BlogList from '@/app/components/ListBlogs'
 import { notFound } from 'next/navigation'
 
 
@@ -20,7 +20,7 @@ export default function page({ params }: { params: { id: number } }) {
       <div style={style}>
         <BlogList />
         <div>
-            <h2>Welcome to the blog number: {params.id}</h2>
+            <h2>Number of page: {params.id}</h2>
             <Image src={imageUrl} alt='' width={200} height={300} />
         </div>  
       </div>   

@@ -3,7 +3,7 @@ import React from 'react';
 const Header: React.FC = () => {
  return (
     <header>
-      <h1>My Next Blog</h1>
+      <h1>T-F SWITCH BLOG</h1>
     </header>
  );
 }

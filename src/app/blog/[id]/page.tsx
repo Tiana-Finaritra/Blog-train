@@ -3,7 +3,7 @@ import styles from '../../page.module.css'
 import Link from 'next/link'
 import Header from '@/app/components/Header'
 import Footer from '@/app/components/Footer'
-import BlogList from '@/app/components/BlogList'
+import BlogList from '@/app/components/ListBlogs'
 import { notFound } from 'next/navigation'
 
 

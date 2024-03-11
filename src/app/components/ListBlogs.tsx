@@ -15,7 +15,7 @@ const blogs = [
 
 
 
-const BlogList = () => {
+const ListBlogs = () => {
     return (
         <div>
             <ul style={{listStyle: 'none'}}>
@@ -29,4 +29,4 @@ const BlogList = () => {
     )
 }
 
-export default BlogList;
+export default ListBlogs;
